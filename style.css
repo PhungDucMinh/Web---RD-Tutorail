@@ -1,0 +1,353 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/*  From body to h1h2h3h4h5h6 p img */
+body {
+    background: #FFF;
+    color: #67727A;
+    font-family: 'Alegreya', sans-serif;
+}
+
+/* CSS HTML Header Text */
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 750%;
+    color: #FFF;
+    /* padding-top: 2%; */
+
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: 400%;
+    line-height: 150%;
+    color: #FFF;
+    /*padding: 0% 0%;*/
+}
+
+p {
+    padding: 3%;
+    text-align: justify;
+    text-indent: 2%;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #FFF;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Reponsive image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /*border: 1px solid red;*/
+}
+
+header {
+    width: 100%;
+    background: #69A;
+    height: 86px;
+}
+
+#header-inner {
+    margin: 0px auto;
+}
+
+#logo {
+    margin: 20px;
+    width: 200px;
+    height: 60px;    
+    float: left;
+    background: url('img/RD.png') no-repeat center;
+}
+
+/* Navigation */
+nav {
+    float: right;
+    padding: 20px 25px 0 0;
+}
+
+#menu-icon {
+    display: none;
+    float: right;
+    width: 40px;
+    height: 40px; 
+    background: url('img/nav.png') no-repeat center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding:10px;
+    font-size: 1.5em;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+nav ul li a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #CDD;
+}
+
+.current {
+    color: #CDD;
+}
+
+/* End Navigation */
+.banner {
+    background: #69A;
+}
+
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+
+/* One Forth Sections */
+.one-forth{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#html{
+    background: #FA9;
+}
+
+#css{
+    background: #BBA;
+}
+
+#seo {
+    background: #ADD;
+}
+
+#social{
+    background: #ABC;
+}
+
+.one-forth {
+    padding: 1% 0;
+}
+
+.one-forth i {
+    padding: 8% 0% 4% 0%;
+    color: #FFF;
+    font-size: 5em;
+}
+
+/* End One Forth */
+
+.inner-wrapper {
+    height: 400px;
+    background: #ABC;
+    display: table;
+}
+
+.inner-wrapper article, aside{
+    vertical-align: top;
+}
+
+.inner-wrapper article {
+    display: table-cell;
+    width: 50%; 
+}
+
+.inner-wrapper aside {
+    padding: 3% 0;
+    background: #CB9;
+    display: table-cell;
+    width: 50%;
+
+}
+
+.inner-wrapper article img {
+    margin: 0 auto;
+}
+
+.inner-wrapper aside h2 {
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+/* End .inner-wrapper */
+
+.inner-wrapper-2 {
+    display: table;
+}
+
+.inner-wrapper-2 article, aside {
+    vertical-align: top;
+    width: 50%;
+    display: table-cell;
+}
+
+.inner-wrapper-2 article {
+    padding: 3% 0;
+    background: #987;
+}
+
+.inner-wrapper-2 aside {
+    background: #9A8;
+}
+
+.inner-wrapper-2 article img {
+    margin: 0 auto;
+}
+/* End .inner-wrapper-2 */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.one-third-container {
+    display: table;
+}
+
+.one-third {
+    width: 33.33%;
+    display: table-cell;
+    background: #BBC;
+    text-align: center;
+}
+
+#google {
+    background: #CBA;
+}
+#marketing {
+    background: #CAA;
+}
+#customers {
+    background: #CAB;
+}
+
+.smiley {
+    background: #DFA;
+    clear: both;
+    padding: 5px 0;
+    text-align: center;
+
+}
+
+.smiley h2 {
+    font-size: 2.5em;
+    color: #A73;
+}
+
+.social {
+    background: #C62;
+    text-align: center;
+}
+
+.social li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1% 5%;
+}
+
+.social i {
+    font-size: 4em;
+    color: #DDD;
+}
+
+.social i:hover {
+    color: #14D;
+}
+/* End Social*/
+
+.second-footer {
+    background: #589;
+}
+
+.second-footer p {
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*** MEDIA!!! ***/
+
+@media screen and (max-width: 768px){
+    h2 {
+        font-size: 1.75em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    header {
+        position: absolute;
+    }
+    #logo {
+        margin: 15px 0 20px -25px;
+        background: url('img/RD_mobile.png') no-repeat center;
+    }
+    #menu-icon {
+        display: inline-block;
+    }
+    nav ul, nav:active ul {
+        display: none;
+    }
+    nav:hover ul {
+        display: block;
+        width: 50%;
+        z-index: 1000;
+        position: absolute;
+        padding: 5px;
+        top: 60px;
+        right: 20px;
+        border: 1px solid #FFF;
+        border-radius: 2%;
+        background: #69A;
+    }
+    nav li {
+        width: 100%;
+        /* Why i Have to give margin to center the box?? */
+        margin: 0px 0px 0px -7px;
+        text-align: center;
+    }
+    .banner {
+        padding-top: 86px;
+    }
+    .one-forth {
+        width: 100%;
+    }
+    .one-forth i {
+        font-size: 3.5em;
+        padding: 4% 0 2% 0;
+    }
+    .inner-wrapper,
+    .inner-wrapper-2,
+    .one-third-container {
+        display: inline;
+    }
+
+    .inner-wrapper aside, .inner-wrapper article,
+    .inner-wrapper-2 aside, .inner-wrapper-2 article,
+    .one-third-container .one-third {
+        width: 100%;
+        display: block;
+    }
+
+    .social {
+        padding: 5% 0;
+    }
+    .social i {
+        font-size: 1.8em;
+    }
+}
