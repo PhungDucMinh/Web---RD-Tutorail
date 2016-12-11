@@ -8,3 +8,5 @@ https://youtu.be/muZ0JYBCnrU
 
 ---------------------------
 ![Mobile Image](https://github.com/PhungDucMinh/Web---RD-Tutorail/blob/master/img/mobile-visual.png)
+
+![Mobile Image](https://github.com/PhungDucMinh/Web---RD-Tutorail/blob/master/img/desktop-visual.png)
